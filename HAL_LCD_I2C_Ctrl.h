@@ -70,13 +70,13 @@
     void LCDenablePulse(char addr, char data);
 
     // Send data
-    void LCDsendData(char addr, char data);
+    void LCDdata(char addr, char data);
 
     // Send config
-    void LCDsendCommand(char addr, char cmd);
+    void LCDcommand(char addr, char cmd);
 
     // Settings
-    void LCDsetCursorPosition(char addr, char line, char col);
+    void LCDsetCursor(char addr, char line, char col);
     void LCDclear(char addr);
     void LCDhome(char addr);
     void LCDcursorBlink(char addr);
